@@ -1,11 +1,21 @@
 import java.util.Scanner;
 
-// 3. Declaración de la clase (el nombre del archivo debe ser HolaMundo.java)
-public class menuRestaurante {
-
-    // 4. Método principal: punto de entrada del programa
+public class menuRestaurante { 
     public static void main(String[] args) {
-        // 5. Instrucciones / sentencias
-        System.out.println("¡Hola, mundo!");
+
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("""
+=== Factura Restaurante ===
+
+1. Calcular valor de platos
+2. Calcular valor de bebidas
+3. Calcular propina
+4. Calcular total de la factura
+5. Salir""");
+
+        
+        System.out.print("\nIngrese un valor para calcular su potencia: ");
+        int n = scanner.nextInt();
     }
 }
