@@ -1,5 +1,5 @@
 public class Mostrar {
     public static void mostrar(){
-        System.out.println("1");
+        System.out.println("12345");
     }
 }
