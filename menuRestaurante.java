@@ -15,7 +15,11 @@ public class menuRestaurante {
 5. Salir""");
 
         
-        System.out.print("\nIngrese un valor para calcular su potencia: ");
-        int n = scanner.nextInt();
+        System.out.print("\nSeleccione una opcion: ");
+        int opcion = scanner.nextInt();
+
+        if (opcion == 1){
+            Mostrar.mostrar();
+        }
     }
 }
